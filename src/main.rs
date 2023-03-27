@@ -229,7 +229,7 @@ fn graphical() -> Result<(), String> {
         }
 
         // update the game loop here
-        if frame >= 30 {
+        if frame >= 5 {
             board = next(&mut board);
             frame = 0;
         }
